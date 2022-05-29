@@ -1,1 +1,1 @@
-const opposite = number => {return number * -1} 
+const opposite = number => {return number * -1}
