@@ -5,4 +5,19 @@
 // Note: The function accepts an integer and returns an integer
 
 
-function squareDigits(num){ let str = String(num) let splitted = str.split('') let squared = splitted.map(a => a ** 2) return concatenated = Number(squared.join(''))}function squareDigits(num){ let splitNumIntoString = String(num).split('') let squaredNum = splitNumIntoString.map(a => a ** 2) return Number(squaredNum.join(''))}
+// First Solution
+
+function squareDigits(num){
+    let str = String(num)
+    let splitted = str.split('')
+    let squared = splitted.map(a => a ** 2)
+    return concatenated = Number(squared.join(''))
+  }
+
+  // Second Solution
+
+  function squareDigits(num){
+    let splitNumIntoString = String(num).split('')
+    let squaredNum = splitNumIntoString.map(a => a ** 2)
+    return Number(squaredNum.join(''))
+  }
