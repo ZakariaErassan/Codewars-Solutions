@@ -18,11 +18,11 @@
 // First Solution
 
 function minMax(arr){
-    let lowest = Math.min(...arr)
-    let highest = Math.max(...arr)
+    let lowestNum = Math.min(...arr)
+    let highestNum = Math.max(...arr)
     let newarr = []
-    newarr.unshift(lowest)
-    newarr.push(highest)
+    newarr.unshift(lowestNum)
+    newarr.push(highestNum)
     return newarr
   }
 
